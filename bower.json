@@ -1,0 +1,8 @@
+{
+  "name": "jcrop-playground",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.11.1",
+    "jcrop": "~0.9.12"
+  }
+}

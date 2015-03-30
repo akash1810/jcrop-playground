@@ -1,0 +1,92 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>jcrop playground</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <link rel="stylesheet" href="bower_components/jcrop/css/jquery.Jcrop.min.css">
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <img id="jcrop-test" src="images/rugby.jpeg"/>
+
+    <table>
+      <tr>
+        <th>Field</th>
+        <th class="">Original</th>
+        <th>parseInt</th>
+        <th>Math.round</th>
+        <th>Math.ceil</th>
+      </tr>
+      <tr>
+        <td>Width</td>
+        <td id="w-original"></td>
+        <td id="w-parseInt"></td>
+        <td id="w-mathRound"></td>
+        <td id="w-mathCeil"></td>
+      </tr>
+      <tr>
+        <td>Height</td>
+        <td id="h-original"></td>
+        <td id="h-parseInt"></td>
+        <td id="h-mathRound"></td>
+        <td id="h-mathCeil"></td>
+      </tr>
+      <tr>
+        <td>x1</td>
+        <td id="x-original"></td>
+        <td id="x-parseInt"></td>
+        <td id="x-mathRound"></td>
+        <td id="x-mathCeil"></td>
+      </tr>
+      <tr>
+        <td>x2</td>
+        <td id="x2-original"></td>
+        <td id="x2-parseInt"></td>
+        <td id="x2-mathRound"></td>
+        <td id="x2-mathCeil"></td>
+      </tr>
+      <tr>
+        <td>y1</td>
+        <td id="y-original"></td>
+        <td id="y-parseInt"></td>
+        <td id="y-mathRound"></td>
+        <td id="y-mathCeil"></td>
+      </tr>
+      <tr>
+        <td>y2</td>
+        <td id="y2-original"></td>
+        <td id="y2-parseInt"></td>
+        <td id="y2-mathRound"></td>
+        <td id="y2-mathCeil"></td>
+      </tr>
+    </table>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <script src="bower_components/jcrop/js/jquery.Jcrop.min.js"></script>
+    <!-- endbuild -->
+
+
+    <!-- build:js({app,.tmp}) scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
